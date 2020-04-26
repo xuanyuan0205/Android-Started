@@ -54,4 +54,9 @@
         android:layout_height="wrap_content"
         android:text="Notification使用"
         android:id="@+id/btn_main_notification"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog使用"
+        android:id="@+id/btn_main_alertdialog"/>
 </LinearLayout>

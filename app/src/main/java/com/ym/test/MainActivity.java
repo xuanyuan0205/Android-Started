@@ -75,5 +75,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.btn_main_alertdialog).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,AlertDialogActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
