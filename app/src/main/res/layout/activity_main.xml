@@ -59,4 +59,14 @@
         android:layout_height="wrap_content"
         android:text="AlertDialog使用"
         android:id="@+id/btn_main_alertdialog"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ProgressDialog使用"
+        android:id="@+id/btn_main_progressdialog"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DateAndTimePickerDialog使用"
+        android:id="@+id/btn_main_dtpicker_dialog"/>
 </LinearLayout>

@@ -82,5 +82,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.btn_main_progressdialog).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,ProgressDialogActivity.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.btn_main_dtpicker_dialog).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,DateTimePickerDialogActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
