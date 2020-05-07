@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DateTimePickerDialogActivity"></activity>
+        <activity android:name=".ViewPager1Activity"></activity>
+        <activity android:name=".ViewPagerMainActivity" />
+        <activity android:name=".ContextMenuWithXmlActivity" />
+        <activity android:name=".OptionMenuWithXmlActivity" />
+        <activity android:name=".ContextMenuActivity" />
+        <activity android:name=".OptionMenuActivity" />
+        <activity android:name=".MenuMainActivity" />
+        <activity android:name=".PopupWindowActivity" />
+        <activity android:name=".DateTimePickerDialogActivity" />
         <activity android:name=".ProgressDialogActivity" />
         <activity android:name=".AlertDialogActivity" />
         <activity android:name=".NotificationOtherActivity" />

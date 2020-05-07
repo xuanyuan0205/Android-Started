@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Android Hello</string>
     <string name="abc">Android Hello</string>
+    <string name="new_game">红色</string>
+    <string name="help">绿色</string>
+    <string name="font_red">红色</string>
+    <string name="font_green">绿色</string>
+    <string name="font_blue">蓝色</string>
 </resources>

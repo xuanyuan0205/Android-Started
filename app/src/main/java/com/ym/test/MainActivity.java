@@ -96,5 +96,27 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.btn_main_popupwindow).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,PopupWindowActivity.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.btn_main_menu).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,MenuMainActivity.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.btn_main_viewpager).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,ViewPagerMainActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

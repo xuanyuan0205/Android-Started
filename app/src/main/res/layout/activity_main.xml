@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="horizontal"
+    android:columnCount="2">
 
 
 
@@ -69,4 +70,19 @@
         android:layout_height="wrap_content"
         android:text="DateAndTimePickerDialog使用"
         android:id="@+id/btn_main_dtpicker_dialog"/>
-</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PopupWindow使用"
+        android:id="@+id/btn_main_popupwindow"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu使用"
+        android:id="@+id/btn_main_menu"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewPager使用"
+        android:id="@+id/btn_main_viewpager"/>
+</GridLayout>
